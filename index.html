@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Cheat Sheet</h1>
+        <p>A quick reference guide for CSS properties</p>
+    </header>
+
+    <section class="css-cheat-sheet">
+        <!-- Basic CSS Properties -->
+        <article class="css-item">
+            <h2>Color</h2>
+            <p>Specifies the color of text.</p>
+            <pre><code>color: red;</code></pre>
+        </article>
+        
+        <article class="css-item">
+            <h2>Background-color</h2>
+            <p>Sets the background color of an element.</p>
+            <pre><code>background-color: lightblue;</code></pre>
+        </article>
+
+        <!-- Advanced CSS Properties -->
+        <article class="css-item">
+            <h2>Flexbox</h2>
+            <p>Defines a flexible layout structure for items within a container.</p>
+            <pre><code>display: flex;
+justify-content: center;
+align-items: center;</code></pre>
+        </article>
+
+        <article class="css-item">
+            <h2>Grid</h2>
+            <p>Creates a two-dimensional layout with rows and columns.</p>
+            <pre><code>display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;</code></pre>
+        </article>
+
+        <article class="css-item">
+            <h2>Transition</h2>
+            <p>Adds a transition effect to a property change.</p>
+            <pre><code>transition: all 0.3s ease;</code></pre>
+        </article>
+
+        <article class="css-item">
+            <h2>Transform</h2>
+            <p>Applies a 2D or 3D transformation to an element.</p>
+            <pre><code>transform: rotate(45deg);</code></pre>
+        </article>
+
+        <article class="css-item">
+            <h2>Animation</h2>
+            <p>Creates animations with keyframes.</p>
+            <pre><code>@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(100px); }
+}
+animation: slide 2s infinite;</code></pre>
+        </article>
+
+        <article class="css-item">
+            <h2>Media Queries</h2>
+            <p>Applies styles based on screen size or other conditions.</p>
+            <pre><code>@media (max-width: 600px) {
+    body { font-size: 14px; }
+}</code></pre>
+        </article>
+
+        <article class="css-item">
+            <h2>Box Shadow</h2>
+            <p>Adds a shadow effect around an element.</p>
+            <pre><code>box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);</code></pre>
+        </article>
+
+        <article class="css-item">
+            <h2>Border Radius</h2>
+            <p>Rounds the corners of an element.</p>
+            <pre><code>border-radius: 10px;</code></pre>
+        </article>
+
+        <article class="css-item">
+            <h2>Opacity</h2>
+            <p>Sets the transparency level of an element.</p>
+            <pre><code>opacity: 0.5;</code></pre>
+        </article>
+
+    </section>
+</body>
+</html>
